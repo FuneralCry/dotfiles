@@ -1,1 +1,71 @@
-/home/matvey/.config/alacritty/alacritty.yml
+env:
+  TERM: xterm-256color
+
+window:
+  dimensions:
+    columns: 80
+    lines: 24
+
+  padding:
+    x: 8
+    y: 8
+
+  decorations: full
+
+font:
+  normal:
+    family: Hack Nerd Font Mono
+    style: Regular
+  bold:
+    family: Hack Nerd Font Mono
+    style: Bold
+  italic:
+    family: Hack Nerd Font Mono
+    style: Italic
+  bold_italic:
+    family: Hack Nerd Font Mono
+    style: Bold Italic
+
+  size: 7.0
+
+  offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '#161821'
+    foreground: '#abb2bf'
+
+  normal:
+    black: '#5c6370'
+    red: '#e06c75'
+    green: '#98c379'
+    yellow: '#e5c07b'
+    blue: '0x61afef'
+    magenta: '#c678dd'
+    cyan: '#56b6c2'
+    white: '#abb2bf'
+
+  bright:
+    black: '#4b5263'
+    red: '#e06c75'
+    green: '#98c379'
+    yellow: '#e5c07b'
+    blue: '0x61afef'
+    magenta: '#c678dd'
+    cyan: '#56b6c2'
+    white: '#abb2bf'
+
+
+background_opacity: 0.9
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+selection:
+  save_to_clipboard: true
+
+cursor:
+  style:
+    shape: Block
